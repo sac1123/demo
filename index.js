@@ -13,7 +13,7 @@ db.on('error',()=>console.log("error in  connectivity"))
 db.once('open',()=>console.log("connected success"))
 
 
-const app = express()
+const app =  express()
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
