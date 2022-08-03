@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 }))
 
 
-app.post("/sign_up",async (req,res)=>{
+app.post("/sign_up",async  (req,res)=>{
     try{
         var name = req.body.name;
         var email = req.body.email;
